@@ -18,7 +18,7 @@ connectDB();
 
 //es module fix
 const __filename = fileURLToPath(import.meta.url);
-const __diename = path.dirname(__filename);
+const __dirname = path.dirname(__filename);
 
 //rest object
 const app = express()
